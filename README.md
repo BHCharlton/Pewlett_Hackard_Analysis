@@ -7,19 +7,15 @@ Our client, Pewlett Hackard, is a large company that is planning ahead for the u
 4. Create of a list of retirees broken down into each department
 
 ## Results
-These are several of the different data sets that were used in the analysis:
+These are the initial data sets that were used in the analysis:
 * departments
 * dept_emp
 * dept_manager
 * employees
-* emp_info
-* emp_count
-* retirement_titles
-* retirement_info
 * salaries
+* titles
 
-In this analysis, the PostgreSQL relational database system was used through pgAdmin to as a way to develop, combine, and create new data sets needed for the analysis.  To begin, the entity relationsip diagram (ERD) below was created to see how each data set related to one another, and then be able to determine what information was specifically needed to develop new data sets containing the desired information.
+In this analysis, PostgreSQL relational database system was used through the pgAdmin platform as a way to evaluate, combine, and develop new data sets needed for the analysis.  To begin, the entity relationsip diagram (ERD) below was created to see how each data set related to one another, and then be able to determine what information was specifically needed to develop new data sets containing the desired information.
 
 ![ERD](https://raw.githubusercontent.com/BHCharlton/Pewlett_Hackard_Analysis/main/EmployeeDB.png)
 
-This shows how we
