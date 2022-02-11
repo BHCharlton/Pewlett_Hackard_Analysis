@@ -18,4 +18,6 @@ These are several of the different data sets that were used in the analysis:
 * retirement_info
 * salaries
 
-Structured Query Language(SQL) was used in the analysis of the data through pgAdmin and Postgres
+In this analysis, the PostgreSQL relational database system was used through pgAdmin to as a way to develop, combine, and create new data sets needed for the analysis.  To begin, the entity relationsip diagram (ERD) below was created to see how each data set related to one another, and then be able to determine what information was specifically needed to develop new data sets containing the desired information.
+
+![ERD](https://raw.githubusercontent.com/BHCharlton/Pewlett_Hackard_Analysis/main/EmployeeDB.png)
