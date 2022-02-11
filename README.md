@@ -6,3 +6,16 @@ Our client, Pewlett Hackard, is a large company that is planning ahead for the u
 3. Determine the number of who will likely be retiring in each department
 4. Create of a list of retirees broken down into each department
 
+## Results
+These are several of the different data sets that were used in the analysis:
+* departments
+* dept_emp
+* dept_manager
+* employees
+* emp_info
+* emp_count
+* retirement_titles
+* retirement_info
+* salaries
+
+Structured Query Language(SQL) was used in the analysis of the data through pgAdmin and Postgres
