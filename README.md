@@ -29,7 +29,7 @@ To eliminate duplicate entries created by the original query, an additional anal
 
 Is was also important to group the retirees by title to have a clear understanding of which roles would need to be filled, and how many.  There were seven groupings in the data set.
 
-![titles]()
+![titles](https://github.com/BHCharlton/Pewlett_Hackard_Analysis/blob/main/retiring_titles.PNG)
 
 ### Mentorship Program Eligibility
 There will be many people moving on from Pewlett Hackard in the next few years, and it will be important to help prepare new and existing employees for the years ahead.  To be eligible, the employee must be planning to retire, and have been born between January 1 and December 31 of 1965.
