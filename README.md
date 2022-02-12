@@ -34,6 +34,8 @@ Is was also important to group the retirees by title to have a clear understandi
 ### Mentorship Program Eligibility
 There will be many people moving on from Pewlett Hackard in the next few years, and it will be important to help prepare new and existing employees for the years ahead.  To be eligible, the employee must be planning to retire, and have been born between January 1 and December 31 of 1965.
 
+![mentors](https://github.com/BHCharlton/Pewlett_Hackard_Analysis/blob/main/Mentors.PNG)
+
 
 ### Observations
 * There will be 72, 458 who will be eligible for retirement over the next few years
