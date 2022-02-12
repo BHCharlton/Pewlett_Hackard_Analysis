@@ -25,6 +25,8 @@ Using the ERD as a guide, data sets were developed based on the instructions. Th
 
 To elliminate duplicate entries created by the original query, an additional analysis was run using a the distinct_on filter to give us a more practical idea of how many employees will actually be retiring based upon their current position only.
 
+![unique](https://raw.githubusercontent.com/BHCharlton/Pewlett_Hackard_Analysis/main/Unique.PNG)
+
 Is was also important to group the retirees by title to have a clear understanding of which roles would need to be filled, and how many.  There were seven groupings in the data set.
 
 ### Mentorship Program Eligibility
