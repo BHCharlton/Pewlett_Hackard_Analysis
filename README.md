@@ -19,3 +19,4 @@ In this analysis, PostgreSQL relational database system was used through the pgA
 
 ![ERD](https://raw.githubusercontent.com/BHCharlton/Pewlett_Hackard_Analysis/main/EmployeeDB.png)
 
+Using the ERD as a guide, new queries were written to
