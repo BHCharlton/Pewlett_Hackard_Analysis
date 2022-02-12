@@ -21,10 +21,14 @@ In this analysis, PostgreSQL relational database system was used through the pgA
 ![ERD](https://raw.githubusercontent.com/BHCharlton/Pewlett_Hackard_Analysis/main/EmployeeDB.png)
 
 ### 1. Retiree Count Analysis
-Using the ERD as a guide, data sets were developed based on the instructions. The analysis was based on defining aging population with birth date between years 1952 to 1955 and hire date between years 1985 to 1988. The analysis returned 133,776 results which is a big number.  However, it should be noted that this data set includes multiple titles held by the same employee due to the fact that they have switched titles within the company throughout their tenure.  Thus, this number is not an accurate representation of the number of retirees.
+Using the ERD as a guide, data sets were developed based on the instructions. The analysis was based on defining aging population with birth date between years 1952 to 1955 and hire date between years 1985 to 1988. The analysis returned 133, 776 results, which seems quite high.  However, it should be noted that this data set includes multiple titles held by the same employee due to the fact that they have switched titles within the company throughout their tenure.  Thus, this number is not an accurate representation of the number of retirees.
 
-To elliminate duplicate entries created by the original query, an additional analysis was run using a the distinct_on filter to give us a more practical idea of how many employees will actually be retiring based upon their current position only.
+To elliminate duplicate entries created by the original query, an additional analysis was run using a the distinct_on filter to give us a more practical idea of how many employees will actually be retiring based upon their current position only.  This ultimately brings the number of expected retirees down to 72, 458
 
-* The number of employees
+Is was also important to group the retirees by title to have a clear understanding of which roles would need to be filled, and how many.  There were seven groupings in the data set.
 
-Therefore, we recommed to include in the title table and add "to_date" as critieria to only include the most current title. The result set will bring 33,118 actual titles currently held by retired employees to appropriately measure the exposure for Pewlett-Hackard based on retiring population.
+### 2. Mentorship Program Eligibility
+
+
+
+
