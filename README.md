@@ -20,14 +20,24 @@ In this analysis, PostgreSQL relational database system was used through the pgA
 
 ![ERD](https://raw.githubusercontent.com/BHCharlton/Pewlett_Hackard_Analysis/main/EmployeeDB.png)
 
-### 1. Retiree Count Analysis
+### Retiree Count Analysis
 Using the ERD as a guide, data sets were developed based on the instructions. The analysis was based on defining aging population with birth date between years 1952 to 1955 and hire date between years 1985 to 1988. The analysis returned 133, 776 results, which seems quite high.  However, it should be noted that this data set includes multiple titles held by the same employee due to the fact that they have switched titles within the company throughout their tenure.  Thus, this number is not an accurate representation of the number of retirees.
 
-To elliminate duplicate entries created by the original query, an additional analysis was run using a the distinct_on filter to give us a more practical idea of how many employees will actually be retiring based upon their current position only.  This ultimately brings the number of expected retirees down to 72, 458
+To elliminate duplicate entries created by the original query, an additional analysis was run using a the distinct_on filter to give us a more practical idea of how many employees will actually be retiring based upon their current position only.
 
 Is was also important to group the retirees by title to have a clear understanding of which roles would need to be filled, and how many.  There were seven groupings in the data set.
 
-### 2. Mentorship Program Eligibility
+### Mentorship Program Eligibility
+There will be many people moving on from Pewlett Hackard in the next few years, and it will be important to help prepare new and existing employees for the years ahead.  To be elligible, the employee must be planning to retire, and have been born between January 1 and December 31 of 1965.
+
+
+### Observations
+* There will be 72, 458 who will be eligible for retirement over the next few years
+* Seventy percent of those retiring will be from senior level positions, which will likely result in internal title promotion
+* There are 1, 149 employees who would be eligible to assist in the mentorship program
+
+## Summary
+It is important to plan ahead for the upcoming "silver tsunami" that Pewlett Hackard will be soon faced with.  The workforce is strained right now, and it may be difficult to find enough qualified candidates to assume all the roles that will need to be filled in order to keep business running efficiently.  But not every retiree is simply going to be walking out the same day, and there will be many experienced senior staffers over the next couple of years that should be able to help train those who are looking to move up within the company as well as new employees who are just beginning with Pewlett Hackard.
 
 
 
