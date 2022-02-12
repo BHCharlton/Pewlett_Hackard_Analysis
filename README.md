@@ -23,7 +23,7 @@ In this analysis, PostgreSQL relational database system was used through the pgA
 ### Retiree Count Analysis
 Using the ERD as a guide, data sets were developed per the instructions above. The analysis was based on defining the aging population with a birth date between the years 1952 to 1955, hired anytime from 1985 to 1988. The analysis returned 133, 776 results, which is a very large number to work with.  However, it should be noted that this data set includes multiple titles held by the same employee due to the fact that they have switched titles within the company throughout their career.  Thus, this number is not a very accurate representation of the actual number of retirees.
 
-
+![unfiltered](https://github.com/BHCharlton/Pewlett_Hackard_Analysis/blob/main/titles_unfiltered.PNG)
 
 To eliminate duplicate entries created by the original query, an additional analysis was run using a the distinct_on filter to give us a more practical idea of how many employees will actually be retiring based upon their current position only.
 
