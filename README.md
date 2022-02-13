@@ -1,6 +1,6 @@
 # Pewlett_Hackard_Analysis
 ## Overview of the Analysis
-Our client, Pewlett Hackard, is a large company that is planning ahead for the upcoming retirements of several employees over the new few years.  They want to "future-proof" the company by finding out how many people will likely be retiring in that time, and who of those employees will be eligible for the retirement packages their company has to offer.  Pewlett Hackard also wants to make sure that the company is ready for swift turnover so that appropriate decisions can be made in regards to hiring, training, and retirements. In order to ensure a smooth transition, the following information was obtained for the analysis:
+Our client, Pewlett Hackard, is a large company that is planning ahead for the upcoming retirements of several employees over the new few years.  They want to "future-proof" the company by finding out how many people will likely be retiring in that time, and who of those employees will be eligible for the mentorship programs and retirement packages their company has to offer.  Pewlett Hackard also wants to make sure that the company is ready for swift turnover so that appropriate decisions can be made in regards to hiring, training, and retirements. In order to ensure a smooth transition, the following information was obtained for the analysis:
 1. A compilation of the employees within a specific age range who are most likely to retire
 2. Identify those employees who are eligible for retirement benefits
 4. Determine the number of those who will be retiring
@@ -25,7 +25,7 @@ Using the ERD as a guide, data sets were developed per the instructions above. T
 
 ![unfiltered](https://github.com/BHCharlton/Pewlett_Hackard_Analysis/blob/main/titles_unfiltered.PNG)
 
-To eliminate duplicate entries created by the original query, an additional analysis was run using a the distinct_on filter to give us a more practical idea of how many employees will actually be retiring based upon their current position only.
+To eliminate duplicate entries created by the original query, an additional analysis was run using the distinct_on filter to give us a more practical idea of how many employees will actually be retiring based upon their current position only.
 
 ![unique](https://raw.githubusercontent.com/BHCharlton/Pewlett_Hackard_Analysis/main/Unique.PNG)
 
@@ -45,4 +45,4 @@ There will be many people moving on from Pewlett Hackard in the next few years, 
 * There are 1, 149 employees who would be eligible to assist in the mentorship program
 
 ## Summary
-It is important to plan ahead for the upcoming "silver tsunami" that Pewlett Hackard will be soon faced with.  The workforce is strained right now, and it may be difficult to find enough qualified candidates to assume all the roles that will need to be filled in order to keep business running efficiently.  But not every retiree is simply going to be walking out the same day, and there will be many experienced senior staffers over the next couple of years that should be able to help train those who are looking to move up within the company as well as new employees who are just beginning with Pewlett Hackard.
+It is important to plan ahead for the upcoming "silver tsunami" that Pewlett Hackard will be soon faced with.  The workforce is strained right now, and it may be difficult to find enough qualified candidates to assume all the roles that will need to be filled in order to keep business running efficiently.  But not every retiree is simply going to be walking out the same day, and there will be many experienced senior staffers over the next couple of years that should be able to help train those who are looking to move up within the company as well as the next generation of employees who are just beginning with Pewlett Hackard.
